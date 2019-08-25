@@ -1,0 +1,694 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body
+{
+ 
+}
+ 
+
+#name
+{
+	font-family: 'Libre Caslon Text', serif;
+}
+
+#email
+{
+	font-family: 'Crimson Text', serif;
+	text-decoration: none;
+  font-size: 40px;
+	
+
+}
+#ename
+{
+  font-size: 26px;
+  
+}
+#ename:hover
+{
+  color: skyblue;
+}
+#cont
+{
+  font-size: 26px;
+}
+#cont:hover
+{
+  color: skyblue;
+}
+
+#contact
+{
+	font-family: 'Crimson Text', serif;
+	text-decoration: none;
+	color: blue;
+}
+
+#email:hover
+{
+	color: brown;
+}
+
+.objective
+{
+	font-family: 'Libre Caslon Text', serif;
+	margin: 20px;
+	text-align: center;
+  border-radius: 2px;
+  box-shadow: 2px white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  padding: 4px;
+ /*  background-color: floralwhite; */
+/* 	background-color: black; */
+	
+	/* color: white; */
+}
+
+#objectipara
+{
+	font-family: 'Red Hat Display', sans-serif;
+	text-align: center;
+	margin: 40px;
+	font-size: 2em;
+	border-radius: 2px;
+	box-shadow: 2px white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.edu
+{
+  font-family: 'Libre Caslon Text', serif;
+  text-align: center;
+    border-radius: 2px;
+  box-shadow: 2px white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* background-color: floralwhite; */
+
+/* 	background-color: black; */
+	
+	/* color: white; */
+}
+.educationdetails
+{
+	padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+/* education flip cover */
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: white;
+  color: black;
+  padding: 30%;
+  font-size: 2em;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.flip-card-back {
+    background-color:skyblue;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 30%;
+    font-size: 1em;
+
+}
+
+.educationflip
+{
+	
+
+}
+
+.ed
+{
+	font-size: 20px;
+	text-align:right;
+	position: absolute;
+}
+.perc
+{
+	color: orange;
+	font-size: 4em;
+
+}
+div.progress {
+    height: 15px;
+}
+
+.skills
+{
+
+  font-family: 'Libre Caslon Text', serif;
+  text-align: center;
+}
+
+#skillbg
+{
+  /* background-image: url('image/skillbg.jpg');
+  background-repeat: no-repeat;
+  opacity: 0.1;
+ */
+     background-color: #1b1515e0;
+    color: white;
+}
+
+
+.pro
+{
+ font-family: 'Libre Caslon Text', serif;
+ text-align: center;	
+ border-radius: 2px;
+ box-shadow: 2px white;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ padding-top: 2px;
+}
+.skills
+{
+  border-radius: 2px;
+  box-shadow: 2px white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding-top: 10px;
+  background-color: white;
+  color: black;
+ 
+}
+#ski
+{
+	font-family: 'Lexend Deca', sans-serif;
+  text-decoration: underline;
+
+}
+#redhat
+{
+  font-family: 'Red Hat Display', sans-serif;
+  color: red;
+}
+#cer
+{
+		font-family: 'Lexend Deca', sans-serif;
+    text-decoration: underline;
+
+		/* font-family: 'Merriweather', serif; */
+}
+
+.certi
+{
+
+}
+
+.certidetails
+{
+	 padding: 50px;
+}
+
+/* workbg */
+.workbg
+{
+  padding-top: 15px;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+#temp a
+{
+ text-decoration: none;
+
+}
+#tamp:hover
+{
+  background-color: brown;
+}
+.resume
+{
+	
+ box-shadow: 2px white;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ padding-top: 2px;
+	padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+
+/* project css */
+.row > .column {
+  padding: 0 8px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+ /* Footer */
+
+ footer {
+    text-align: center;
+    opacity: .8;
+    padding: 40px;
+    height: 20px;
+   /*  background : -webkit-linear-gradient(left, #dd4b39 0, #720e9e 100%); */
+    background: -o-linear-gradient(left, #dd4b39 0, #720e9e 100%);
+    background: linear-gradient(to right, #dd4b39 0, #720e9e 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdd4b39', endColorstr='#ff720e9e', GradientType=1);
+}
+ul li
+{
+  display: inline;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+
+}
+ul.link
+{
+  color: white;
+}
+ul li a
+{
+  color: white;
+  text-align: justify-content;
+ font-size: 20px;
+
+}
+a
+{
+  font-size: 20px;
+}
+
+/* Stickey social icon */
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:170px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+  /*   text-decoration:underline; */
+}
+
+
+
+/* exprence and project */
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+
+
+
+/* scroll button */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(22, 56, 76, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+/* scroll bar */
+body{
+               
+                 /* background: linear-gradient(to bottom, #ffbf00 0%, #ffffff 1%); */
+                font-size: 15px;
+            }
+  .spansp{
+                color: tomato;
+                letter-spacing: 10px;
+                text-decoration-style: solid;
+            }
+            #grad {
+                background: linear-gradient(to bottom, #ffffff 0%, #ffbf00 107%);
+            }
+            ::-webkit-scrollbar {
+                width: 10px;
+            }
+
+            /* Track */
+            ::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 2px grey; 
+                border-radius: 10px;
+            }
+
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+                background: tomato; 
+                border-radius: 3px;
+            }
+
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background: #ffbf00; 
+            }
+
+            .sp {
+                padding: 30px;
+
+            }
